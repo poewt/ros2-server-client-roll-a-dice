@@ -1,0 +1,15 @@
+# Predefined Types of Dice
+uint8 FOUR_SIDED_DIE=4
+uint8 SIX_SIDED_DIE=6
+uint8 EIGHT_SIDED_DIE=8
+uint8 TEN_SIDED_DIE=10
+uint8 TWELVE_SIDED_DIE=12
+uint8 TWENTY_SIDED_DIE=20
+
+# Request
+uint8 x_sided_die
+
+---
+# Response
+uint8 roll_result
+string outcome

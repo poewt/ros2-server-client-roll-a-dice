@@ -16,6 +16,12 @@ Then navigate into the root directory of the project and run:
 
 `$ source install/setup.bash`
 
+#### Install dependencies
+
+To make sure you have therequired dependencies, run the following command:
+
+`$ rosdep install -i --from-path src --rosdistro humble -y`
+
 #### Service node
 
 Now run the service node in one terminal:

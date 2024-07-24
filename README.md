@@ -4,7 +4,11 @@ Github repository for introduction task to Space Concordia
 
 In this project, a ros2 workspace will be created alongside a custom package that will hold the service and client nodes. The client will be written in C++ while the server node will be written in Python.
 
-### Usage
+### What it does
+
+This project will allow you to send a request with a provided argument to the client node and return a random dice roll based on the provided argument.
+
+### Installation
 
 #### Source the setup files
 
